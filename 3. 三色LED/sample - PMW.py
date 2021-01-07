@@ -25,7 +25,7 @@ def destroy():
     pwm_blue.stop()
     GPIO.output(pin_red, GPIO.LOW)
     GPIO.output(pin_green, GPIO.LOW)
-    GPIO.output(pwm_blue, GPIO.LOW)
+    GPIO.output(pin_blue, GPIO.LOW)
     GPIO.cleanup()
 
 
